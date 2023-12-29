@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Delete Movie</h1>
+<p>delete a movie by id</p>
+<form method="POST">
+    Movie Title: <input type="text" name="title"><br>
+    <input type="submit" value="Delete Movie">
+</form>
+{% endblock %}

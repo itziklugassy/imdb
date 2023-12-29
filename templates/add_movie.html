@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Add Movie</h1>
+<p>add a movie by id</p>
+<form method="POST">
+    IMDb ID: <input type="text" name="imdb_id"><br>
+    <input type="submit" value="Add Movie">
+</form>
+{% endblock %}
